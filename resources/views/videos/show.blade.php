@@ -7,16 +7,23 @@
     <div class="row">
       <div class="col-md-7 col-md-offset-2">
         <div class="page-header">
-          <h3>
-            <small>If you like</small>
-            <input type="text"
-                id="mainSearch"
-                class="typeahead"
-                placeholder="{{ $video->title }}"
-                value="{{ $video->title }}" />
-            <span id="titleSpan">{{ $video->title }}</span>
-            <small>you might also like</small>
-          </h3>
+          <div class="row">
+            <div class="col-xs-9">
+              <h3>
+                <small>If you like</small>
+                <input type="text"
+                    id="mainSearch"
+                    class="typeahead"
+                    placeholder="{{ $video->title }}"
+                    value="{{ $video->title }}" />
+                <span id="titleSpan">{{ $video->title }}</span>
+                <small>you might also like</small>
+              </h3>
+            </div>
+            <div class="col-xs-2 col-xs-offset-1">
+              <h3 class="text-right"><a href="{{ route('welcome') }}" class="btn btn-info glyphicon glyphicon-repeat"></a></h3>
+            </div>
+          </div>
         </div>
       </div>
     </div>

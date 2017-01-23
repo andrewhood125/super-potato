@@ -22,7 +22,7 @@ class CrawlImdbCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Crawl this title on imdb and it\'s related videos.';
+    protected $description = 'Crawl this title on imdb and its related videos.';
 
 
     protected $seen = null;

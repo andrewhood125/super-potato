@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'VideosController@welcome');
+Route::get('/', 'VideosController@welcome')->name('welcome');
 
 Route::resource('videos', 'VideosController');
 
