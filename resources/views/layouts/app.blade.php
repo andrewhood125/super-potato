@@ -17,6 +17,24 @@
 
     @yield('body')
 
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 col-md-offset-2">
+            <div class="row">
+              <div class="col-sm-9">
+                <small class="text-muted">Made by <a href="https://github.com/andrewhood125/">@andrewhood125</a></small>
+              </div>
+              <div class="col-sm-2 col-sm-offset-1">
+                <small><a href="https://github.com/andrewhood125/super-potato/issues/new">Feedback?</a></small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="/vendor/jquery/dist/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
